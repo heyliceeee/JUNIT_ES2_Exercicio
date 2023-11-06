@@ -13,8 +13,10 @@ public class BinStringTestOriginal {
 
         int expected = 0;
         Assertions.assertEquals(expected, binString.sum(""), "\"\" should be 0");
+        
         expected = 100;
         Assertions.assertEquals(expected, binString.sum("d"), "d should be 100");
+        
         expected = 265;
         Assertions.assertEquals(expected, binString.sum("Add"), "Add should be 265");
     }
